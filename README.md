@@ -14,7 +14,7 @@
   <h3 align="center">Boosted Random Forest Classifier for Prostate Cancer Severity</h3>
 
   <p align="center">
-    A supervised learning script using scikit-learn that classifies prostate cancer gene expression data into early and late stage cancer. Uses pathological T score, a score based on size and spread of tumor, as labels to train model.
+    A supervised learning script using scikit-learn that classifies prostate cancer gene expression data into early and late stage cancer.
 
   </p>
 </div>
@@ -50,14 +50,25 @@
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)
+
+This project develops a machine learning pipeline to classify prostate cancer gene expression into early and late stages using a boosted random forest model. 
+The classifier utilizes pathological T score—a post-surgical score reflecting tumor size and spread—as labels, sourced from the TCGA-PRAD Dataset. The goals of building the classifier are:
+
+- Faster, non-invasive alternatives to surgical classification methods
+- Enhanced accuracy compared to traditional clinical T score methods
+
+The script also outputs genes the model identifies as the most important features for classification, which could be investigated as potential biomarkers.
+
+
+</p>
 
 ### Built With
 
-<ul>
-  <li>python</li>
-  <li>scikit-learn</li>
-</ul>
+- python
+- scikit-learn
+- [TCGA-PRAD Dataset](https://portal.gdc.cancer.gov/projects/TCGA-PRAD)
+
 
 
 
