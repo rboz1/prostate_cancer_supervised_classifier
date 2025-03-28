@@ -11,7 +11,7 @@
 
 
 <!-- PROJECT LOGO -->
-  <h3 align="center">Boosted Random Forest Classifier for Prostate Cancer Severity</h3>
+  <h3 align="center">Supervised Classifier for Prostate Cancer Severity</h3>
 
   <p align="center">
     A supervised learning script using scikit-learn that classifies prostate cancer gene expression data into early and late stage cancer.
@@ -52,7 +52,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)
 
-This project develops a machine learning pipeline to classify prostate cancer gene expression into early and late stages using a boosted random forest model. 
+This project develops a machine learning pipeline to classify prostate cancer gene expression into early and late stages using adaboost. 
 The classifier utilizes pathological T score—a post-surgical score reflecting tumor size and spread—as labels, sourced from the TCGA-PRAD Dataset. The goals of building the classifier are:
 
 - Faster, non-invasive alternatives to surgical classification methods
