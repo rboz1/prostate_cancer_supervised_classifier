@@ -86,7 +86,7 @@ The script also outputs genes the model identifies as the most important feature
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/rboz1/supervised_classifier.git
+   git clone https://github.com/rboz1/prostate_cancer_supervised_classifier.git
 2. Run the script 
    ```
    python supervised_classifier.py
